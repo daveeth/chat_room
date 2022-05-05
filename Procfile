@@ -1,1 +1,1 @@
-web: gunicorn official_polls_app_tutorial.wsgi
+web: gunicorn chat_room.wsgi
