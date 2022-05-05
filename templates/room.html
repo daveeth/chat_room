@@ -3,4 +3,11 @@
     <h1 class="enlightened">Room Page</h1>
     <h2 class="{{ room.spiritometer }}">{{ room.name }}</h2>
 
+    <h3>Messages</h3>
+    <ul>
+        {% for msg in msgs %}
+            <li>{{msg.body}}</li>
+        {% endfor %}
+    </ul>
+
 {% endblock content %}
